@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Twitter Notifications --> Shortlist",
+  "version": "0.1.0",
+  "description": "Replaces notifications link in the Twitter navbar with a link to my Shortlist.",
+
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://twitter.com/*"]
+  }]
+
+}
